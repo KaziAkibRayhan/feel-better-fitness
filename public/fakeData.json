@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "name": "Burpees",
+      "img": "https://i.ibb.co/y4FZJ12/Burpees.jpg",
+      "time": 30
+    },
+    {
+      "id": 2,
+      "name": "Dumbbell Rows",
+      "img": "https://i.ibb.co/LrKVnBw/Dumble-Rows.jpg",
+      "time": 30
+    },
+    {
+      "id": 3,
+      "name": "Pushups",
+      "img": "https://i.ibb.co/3kxF2WB/Pushups.jpg",
+      "time": 30
+    },
+    {
+      "id": 4,
+      "name": "Side Planks",
+      "img": "https://i.ibb.co/x5FRQ0b/Side-planks.jpg",
+      "time": 30
+    },
+    {
+      "id": 5,
+      "name": "Squat",
+      "img": "https://i.ibb.co/bW7JdPM/squat.jpg",
+      "time": 30
+    },
+    {
+      "id": 6,
+      "name": "lunges",
+      "img": "https://i.ibb.co/1v9rqvT/woman-doing-lunges-isolated-white-background-45623531.jpg",
+      "time": 30
+    }
+  ]
