@@ -1,0 +1,13 @@
+.header-style {
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+}
+.header-style span {
+  color: #6666ec;
+}
+.header-style h2 {
+  margin-left: 15px;
+  color: #6666ec;
+  font-weight: bold;
+}
