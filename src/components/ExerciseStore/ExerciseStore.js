@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import Exercise from "../Exercise/Exercise";
 import "./ExerciseStore.css";
 
 const ExerciseStore = () => {
@@ -13,6 +14,9 @@ const ExerciseStore = () => {
     <div className="exercise-store-container">
       <div className="exercise-card-container">
         <h2>Select today’s exercise {exercises.length}</h2>
+        {exercises.map((exercise) => (
+          <Exercise exercise={exercise} key={exercise.id}></Exercise>
+        ))}
       </div>
       <div className="exercise-cart-container">
         <h4>Zahid Hossain</h4>
