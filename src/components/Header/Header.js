@@ -9,7 +9,7 @@ const Header = () => {
       <span>
         <FontAwesomeIcon icon={faDumbbell} />
       </span>
-      <h2>Fell Better Fitness</h2>
+      <h1>Fell Better Fitness</h1>
     </div>
   );
 };

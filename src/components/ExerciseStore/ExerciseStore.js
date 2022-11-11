@@ -12,15 +12,17 @@ const ExerciseStore = () => {
 
   return (
     <div className="exercise-store-container">
-      <div className="exercise-card-container">
-        <h2>Select today’s exercise {exercises.length}</h2>
-        {exercises.map((exercise) => (
-          <Exercise exercise={exercise} key={exercise.id}></Exercise>
-        ))}
+      <div>
+        <h2 className="text-exercise">
+          Select today’s exercise {exercises.length}
+        </h2>
+        <div className="exercise-card-container">
+          {exercises.map((exercise) => (
+            <Exercise exercise={exercise} key={exercise.id}></Exercise>
+          ))}
+        </div>
       </div>
-      <div className="exercise-cart-container">
-        <h4>Zahid Hossain</h4>
-      </div>
+      <div className="exercise-cart-container"></div>
     </div>
   );
 };
