@@ -1,3 +1,6 @@
+.cart {
+  padding: 15px;
+}
 .cart-info-detail {
   display: flex;
   justify-content: space-evenly;
@@ -11,5 +14,15 @@
   margin-left: 8px;
   list-style: none;
   border-radius: 5px;
+  cursor: pointer;
+}
+.activity-btn {
+  padding: 10px 15px;
+  width: 100%;
+  border: 0;
+  border-radius: 5px;
+  background-color: orange;
+  font-weight: bold;
+  color: white;
   cursor: pointer;
 }

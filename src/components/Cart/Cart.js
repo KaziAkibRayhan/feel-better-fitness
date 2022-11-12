@@ -14,7 +14,7 @@ const Cart = ({ cart }) => {
   };
 
   return (
-    <div>
+    <div className="cart">
       <div>
         <h3>Name: Jillur Rahman</h3>
         <p>Location: Rampura, Dhaka.</p>
@@ -26,12 +26,27 @@ const Cart = ({ cart }) => {
       </div>
       <div>
         <h3>Add A Break</h3>
+        <div className="break-flex">
+          <li onClick={(e) => handleBreak(e)} className="break-exercise">
+            10s
+          </li>
+          <li onClick={(e) => handleBreak(e)} className="break-exercise">
+            20s
+          </li>
+          <li onClick={(e) => handleBreak(e)} className="break-exercise">
+            30s
+          </li>
+          <li onClick={(e) => handleBreak(e)} className="break-exercise">
+            40s
+          </li>
+        </div>
       </div>
       <div>
         <h2>Exercise Details</h2>
         <h3>Exercise time: {totalTime} seconds</h3>
         <h3>Break time: {takeBreak}</h3>
       </div>
+      <button className="activity-btn">Activity Completed</button>
     </div>
   );
 };
