@@ -6,9 +6,9 @@ import "./Header.css";
 const Header = () => {
   return (
     <div className="header-style">
-      <span>
+      <h1>
         <FontAwesomeIcon icon={faDumbbell} />
-      </span>
+      </h1>
       <h1>Fell Better Fitness</h1>
     </div>
   );

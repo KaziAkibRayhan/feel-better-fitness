@@ -1,7 +1,7 @@
 .card {
   width: 280px;
   height: 350px;
-  box-shadow: 5px 5px 8px gray;
+  box-shadow: 5px 5px 10px gray;
   padding: 15px;
   border-radius: 10px;
 }

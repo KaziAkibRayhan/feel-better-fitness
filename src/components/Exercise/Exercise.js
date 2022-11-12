@@ -1,7 +1,7 @@
 import React from "react";
 import "./Exercise.css";
 
-const Exercise = ({ exercise }) => {
+const Exercise = ({ exercise, handleExercise }) => {
   const { name, img, time } = exercise;
   return (
     <div className="card">
@@ -9,7 +9,9 @@ const Exercise = ({ exercise }) => {
       <h3>{name}</h3>
       <p>Time Required: {time}s</p>
       <div className="flex-btn">
-        <button className="card-btn">Add to List</button>
+        <button onClick={() => handleExercise(exercise)} className="card-btn">
+          Add to List
+        </button>
       </div>
     </div>
   );
