@@ -22,7 +22,9 @@ const ExerciseStore = () => {
           ))}
         </div>
       </div>
-      <div className="exercise-cart-container"></div>
+      <div className="exercise-cart-container">
+        <div></div>
+      </div>
     </div>
   );
 };
