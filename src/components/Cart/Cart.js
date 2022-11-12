@@ -16,6 +16,15 @@ const Cart = ({ cart }) => {
   return (
     <div>
       <div>
+        <h3>Name: Jillur Rahman</h3>
+        <p>Location: Rampura, Dhaka.</p>
+        <div className="cart-info-detail">
+          <h4>Weight: 65 KG</h4>
+          <h4>Height: 5.7</h4>
+          <h4>Age: 23yrs</h4>
+        </div>
+      </div>
+      <div>
         <h3>Add A Break</h3>
       </div>
       <div>
