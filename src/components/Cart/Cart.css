@@ -1,6 +1,11 @@
 .cart {
   padding: 15px;
 }
+.cart-info {
+  background-color: aliceblue;
+  padding: 5px;
+  border-radius: 5px;
+}
 .cart-info-detail {
   display: flex;
   justify-content: space-evenly;

@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import "./Cart.css";
+import "react-toastify/dist/ReactToastify.css";
+import { toast, ToastContainer } from "react-toastify";
 
 const Cart = ({ cart }) => {
   const [takeBreak, setTakeBreak] = useState([]);
@@ -13,9 +15,13 @@ const Cart = ({ cart }) => {
     setTakeBreak(text);
   };
 
+  const handleActivity = () => {
+    toast("Wow Your Activity Completed!");
+  };
+
   return (
     <div className="cart">
-      <div>
+      <div className="cart-info">
         <h3>Name: Jillur Rahman</h3>
         <p>Location: Rampura, Dhaka.</p>
         <div className="cart-info-detail">
@@ -46,7 +52,10 @@ const Cart = ({ cart }) => {
         <h3>Exercise time: {totalTime} seconds</h3>
         <h3>Break time: {takeBreak}</h3>
       </div>
-      <button className="activity-btn">Activity Completed</button>
+      <button onClick={handleActivity} className="activity-btn">
+        Activity Completed
+      </button>
+      <ToastContainer></ToastContainer>
     </div>
   );
 };
