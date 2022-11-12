@@ -1,9 +1,9 @@
 import React from "react";
-
+import "./QuestionAnswer.css";
 const QuestionAnswer = () => {
   return (
-    <div>
-      <div>
+    <div className="question-section">
+      <div className="question-box">
         <h2>Question 1: How Does React Works ?</h2>
         <p>
           <code>Answer:</code> React uses a declarative paradigm that makes it
@@ -16,8 +16,8 @@ const QuestionAnswer = () => {
           called properties or props.
         </p>
       </div>
-      <div>
-        <h2>Question 2: Props vs State</h2>
+      <div className="question-box">
+        <h2>Question 2: Props vs State ?</h2>
         <p>
           Answer: Props are used to pass data from one component to another. The
           state is a local data storage that is local to the component only and
@@ -28,8 +28,10 @@ const QuestionAnswer = () => {
         <p>Props are read-only.</p>
         <p>State is both read and write.</p>
       </div>
-      <div>
-        <h2>What is the use of useEffect other than loading data?</h2>
+      <div className="question-box">
+        <h2>
+          Question 3: What is the use of useEffect other than loading data?
+        </h2>
         <p>
           Answer: Validating an input while it's receiving characters is another
           great application for useEffect . Whilst the input is being stored in

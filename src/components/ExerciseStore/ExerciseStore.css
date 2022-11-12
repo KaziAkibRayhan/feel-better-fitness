@@ -4,7 +4,7 @@
 }
 
 .exercise-card-container {
-  margin: 10px 10px;
+  margin-left: 20px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
@@ -14,8 +14,6 @@
 }
 
 .exercise-cart-container {
-  position: sticky;
-  top: 0;
   background-color: #d9d0d0;
 }
 

@@ -13,6 +13,10 @@ const Cart = ({ cart }) => {
   const handleBreak = (e) => {
     const text = e.target.innerText;
     setTakeBreak(text);
+
+    localStorage.setItem("break", text);
+    const data = localStorage.getItem("break");
+    setTakeBreak(data);
   };
 
   const handleActivity = () => {

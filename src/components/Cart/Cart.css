@@ -1,5 +1,7 @@
 .cart {
   padding: 15px;
+  position: sticky;
+  top: 0;
 }
 .cart-info {
   background-color: aliceblue;
